@@ -16,6 +16,10 @@
          ==========================================================
          pip install -r requirements.txt
 
-# 4. jalankan
+# 5. jalankan
+
+         python run_migration.py
+         
+# 5. jalankan
 
          python main.py
