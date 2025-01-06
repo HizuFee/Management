@@ -20,6 +20,6 @@
 
          python run_migration.py
          
-# 5. jalankan
+# 6. jalankan
 
          python main.py
