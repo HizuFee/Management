@@ -1,34 +1,52 @@
-### Setup Guide
-# Clone project
-         git clone https://github.com/HizuFee/Management.git
-
-# pindah directory
-         cd Management
 
 
-# **pastikan database bernama inventory_db sudah ada**  
 
+```markdown
+# Panduan Setup 
 
-# 1. jalankan
+## Clone Project
+```bash
+git clone https://github.com/HizuFee/Management.git
+```
 
-         python -m venv GUI-venv
+## Pindah ke Directory
+```bash
+cd Management
+```
 
-# 2. jalankan
+## Pastikan Database Sudah Ada
+Pastikan database dengan nama **`inventory_db`** sudah dibuat.
 
-         GUI-venv\Scripts\activate
+## Langkah-Langkah
 
-# 3. jalankan
+### 1. Buat Virtual Environment
+```bash
+python -m venv GUI-venv
+```
 
-         pip install mysql-connector-python
-         ==========================================================
-         or
-         ==========================================================
-         pip install -r requirements.txt
+### 2. Aktifkan Virtual Environment
+```bash
+GUI-venv\Scripts\activate
+```
 
-# 5. jalankan
+### 3. Install Dependencies
+#### Pilihan 1: Install MySQL Connector Langsung
+```bash
+pip install mysql-connector-python
+```
 
-         python run_migration.py
-         
-# 6. jalankan
+#### Pilihan 2: Install dari File `requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
-         python main.py
+### 4. Jalankan Migration
+```bash
+python run_migration.py
+```
+
+### 5. Jalankan Aplikasi
+```bash
+python main.py
+```
+```
