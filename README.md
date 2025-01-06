@@ -1,4 +1,11 @@
 ### Setup Guide
+# Clone project
+         git clone https://github.com/HizuFee/Management.git
+
+# pindah directory
+         cd Management
+         
+# **pastikan database bernama inventory_db sudah ada**
 
 # 1. jalankan
 
