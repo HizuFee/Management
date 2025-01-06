@@ -4,8 +4,10 @@
 
 # pindah directory
          cd Management
-         
-# **pastikan database bernama inventory_db sudah ada**
+
+============================================================
++  # **pastikan database bernama inventory_db sudah ada**  +
+============================================================
 
 # 1. jalankan
 
