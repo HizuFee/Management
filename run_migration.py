@@ -12,7 +12,7 @@ def run_migrations():
                 if command.strip():
                     cursor.execute(command)
         conn.commit()
-        print("Migrations executed successfully!")
+        print("Migrations Sukses Di jalankan Bos!")
     except mysql.connector.Error as err:
         print(f"Error: {err}")
     finally:

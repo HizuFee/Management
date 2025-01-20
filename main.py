@@ -1,5 +1,5 @@
-from views.main_view import InventoryApp
+from views.auth_view import LoginWindow
 
 if __name__ == "__main__":
-    app = InventoryApp()
+    app = LoginWindow()
     app.mainloop()
